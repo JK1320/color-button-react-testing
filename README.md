@@ -2,6 +2,22 @@
 
 Udemy Course: Testing React with Jest and Testing Library
 
+--------------------------------------------------------------
+
+I got error after running:  npm test
+
+Failed to initialize watch plugin "node_modules/jest-watch-typeahead/filename.js":
+
+which I resolved by running:
+
+npm i -D --exact jest-watch-typeahead@0.6.5
+
+as indicated in stackoverflow:
+
+https://stackoverflow.com/questions/70204039/failed-to-initialize-watch-plugin-node-modules-jest-watch-typeahead-filename-js
+
+-------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
