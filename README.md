@@ -10,7 +10,7 @@ Failed to initialize watch plugin "node_modules/jest-watch-typeahead/filename.js
 
 which I resolved by running:
 
-npm i -D --exact jest-watch-typeahead@0.6.5
+npm i d --exact jest-watch-typeahead@0.6.5
 
 as indicated in stackoverflow:
 
