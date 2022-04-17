@@ -2,6 +2,7 @@
 
 Udemy Course: Testing React with Jest and Testing Library
 
+
 * npm test 
 * Wallaby.js    (extension for checking testing errors, free? )
 * jest and testing library work together:
@@ -11,6 +12,20 @@ Udemy Course: Testing React with Jest and Testing Library
 
 
 -------------------------------------------------
+
+I got error after running:  npm test
+
+Failed to initialize watch plugin "node_modules/jest-watch-typeahead/filename.js":
+
+which I resolved by running:
+
+npm i d --exact jest-watch-typeahead@0.6.5
+
+as indicated in stackoverflow:
+
+https://stackoverflow.com/questions/70204039/failed-to-initialize-watch-plugin-node-modules-jest-watch-typeahead-filename-js
+
+-------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
