@@ -5,11 +5,11 @@ Udemy Course: Testing React with Jest and Testing Library
 
 * npm test 
 * Wallaby.js    (extension for checking testing errors, free? )
-* jest and testing library work together:
+* jest and react testing library work together:
         - to get DOM elements use testing library queries
         - jest is javascript testing library (using methods)
-        - 
-
+* Test-driven development =>=> should write test first then create every element in application 
+* screen object comes from testing library
 
 -------------------------------------------------
 
