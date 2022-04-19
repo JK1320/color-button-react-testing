@@ -12,6 +12,14 @@ Udemy Course: Testing React with Jest and Testing Library
 * Test-driven development =>=> should write test first then create every element in application 
 * screen object comes from testing library
 
+<<--------------------->>
+types of tests:
+=> Unit Tests: test one unit of code; one component, one function etc
+=> integration tests: tests the interaction between units
+=> functional tests: tests particular function of a software(function behavior)
+=> acceptance/ end-to-end (E2E) tests ; uses browser and server (cypress, selenium)
+
+
 -------------------------------------------------
 
 I got error after running:  npm test
