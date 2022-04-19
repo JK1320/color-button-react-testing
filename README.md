@@ -6,8 +6,9 @@ Udemy Course: Testing React with Jest and Testing Library
 * npm test 
 * Wallaby.js    (extension for checking testing errors, free? )
 * jest and react testing library work together:
-        - to get DOM elements use testing library queries
+        - to get DOM elements use testing library queries (provides virtual DOM for tests)
         - jest is javascript testing library (using methods)
+                        - jest is test runner: finds and runs tests, determines whether tests pass or fail
 * Test-driven development =>=> should write test first then create every element in application 
 * screen object comes from testing library
 
@@ -21,7 +22,7 @@ which I resolved by running:
 
 npm i d --exact jest-watch-typeahead@0.6.5
 
-as indicated in stackoverflow:
+as indicated in stack overflow:
 
 https://stackoverflow.com/questions/70204039/failed-to-initialize-watch-plugin-node-modules-jest-watch-typeahead-filename-js
 
