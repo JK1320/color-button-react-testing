@@ -19,6 +19,9 @@ types of tests:
 => functional tests: tests particular function of a software(function behavior)
 => acceptance/ end-to-end (E2E) tests ; uses browser and server (cypress, selenium)
 
+<<---------------------->>
+
+Testing Library and accessibility
 
 -------------------------------------------------
 
