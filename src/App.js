@@ -19,11 +19,12 @@ const newButtonColor = buttonColor === 'red' ? 'blue' : 'red';
       <br />
       <input
         type="checkbox"
-        id="enable-button-checkbox"
+        id="disable-button-checkbox"
         defaultChecked={disabled}
         aria-checked={disabled}    // for screen readers
         onChange={(e) => setDisabled(e.target.checked)}
       />
+      <label htmlFor="disable-button-checkbox">Disable Button</label>
     </div>
   );
 }
