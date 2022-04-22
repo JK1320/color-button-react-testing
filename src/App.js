@@ -11,12 +11,11 @@ const newButtonColor = buttonColor === 'red' ? 'blue' : 'red';
     <div className="App">
       <button
         onClick={() => setButtonColor(newButtonColor)}
-        style={{ backgroundColor: buttonColor }}
+        style={{ backgroundColor: disabled ? 'gray' : buttonColor }}
         disabled={disabled}
       >
         Change to {newButtonColor}
       </button>
-      <br />
       <input
         type="checkbox"
         id="disable-button-checkbox"
