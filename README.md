@@ -22,7 +22,9 @@ types of tests:
 
 <<---------------------->>
 
-Testing Library and accessibility
+Testing Library and accessibility (screen readers etc):
+- https://testing-library.com/docs/queries/about/#priority
+- W3C has role definition: https://www.w3.org/TR/wai-aria/#role_definitions
 
 -------------------------------------------------
 
