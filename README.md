@@ -9,6 +9,7 @@ Udemy Course: Testing React with Jest and Testing Library
         - to get DOM elements use testing library queries (provides virtual DOM for tests)
         - jest is javascript testing library (using methods)
                         - jest is test runner: finds and runs tests, determines whether tests pass or fail
+                        - jest assertions: determines whether test passes or fails. Assertions starts with global expect(subject of assertion) method & then a matcher example; toBeInTheDocument() 
 * Test-driven development =>=> should write test first then create every element in application 
 * screen object comes from testing library
 
