@@ -11,19 +11,21 @@ const newButtonColor = buttonColor === 'red' ? 'blue' : 'red';
     <div className="App">
       <button
         onClick={() => setButtonColor(newButtonColor)}
-        style={{ backgroundColor: disabled ? 'gray' : buttonColor }}
+        style={{ backgroundColor: disabled ? "gray" : buttonColor }}
         disabled={disabled}
       >
         Change to {newButtonColor}
       </button>
-      <input
-        type="checkbox"
-        id="disable-button-checkbox"
-        defaultChecked={disabled}
-        aria-checked={disabled}    // for screen readers
-        onChange={(e) => setDisabled(e.target.checked)}
-      />
-      <label htmlFor="disable-button-checkbox">Disable Button</label>
+      <div className="input-div">
+        <input
+          type="checkbox"
+          id="disable-button-checkbox"
+          defaultChecked={disabled}
+          aria-checked={disabled} // for screen readers
+          onChange={(e) => setDisabled(e.target.checked)}
+        />
+        <label htmlFor="disable-button-checkbox">Disable Button</label>
+      </div>
     </div>
   );
 }
