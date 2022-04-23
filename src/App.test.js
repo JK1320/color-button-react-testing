@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
+import {replaceCamelWithSpaces} from './App';
 
 test('button has correct initial color', () => {
  render(<App />);
@@ -81,4 +82,21 @@ expect(button).toHaveStyle({ backgroundColor: "gray" });
 // re-enable button
 fireEvent.click(checkbox);
 expect(button).toHaveStyle({ backgroundColor: "blue" });
+});
+
+// unit test example - describe() => way to grouping tests
+
+describe('spaces before camel-case capital letters', () => {
+  test('Works for no inner capital letters', () => {
+expect(replaceCamelWithSpaces('Red')).toBe('Red');
+  });
+
+  test('Works for one inner capital letter', () => {
+    expect(replaceCamelWithSpaces('MidnightBlue')).toBe('Midnight Blue');
+  });
+
+  test("Works for multiple inner capital letters", () => {
+    expect(replaceCamelWithSpaces("MediumVioletRed")).toBe("Medium Violet Red");
+  });
+
 });
