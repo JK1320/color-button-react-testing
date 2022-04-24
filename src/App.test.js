@@ -85,6 +85,7 @@ expect(button).toHaveStyle({ backgroundColor: "blue" });
 });
 
 // unit test example - describe() => way to grouping tests
+// testing a function, which adds spaces before camel cases 
 
 describe('spaces before camel-case capital letters', () => {
   test('Works for no inner capital letters', () => {
