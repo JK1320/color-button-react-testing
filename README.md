@@ -16,8 +16,11 @@ Udemy Course: Testing React with Jest and Testing Library
 <<--------------------->>
 types of tests:
 => Unit Tests: test one unit of code; one component, one function etc
+
 => integration tests: tests the interaction between units
+
 => functional tests: tests particular function of a software(function behavior)
+
 => acceptance/ end-to-end (E2E) tests ; uses browser and server (cypress, selenium)
 
 <<---------------------->>
