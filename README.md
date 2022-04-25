@@ -14,7 +14,9 @@ Udemy Course: Testing React with Jest and Testing Library
 * screen object comes from testing library
 
 <<--------------------->>
+
 types of tests:
+
 => Unit Tests: test one unit of code; one component, one function etc
 
 => integration tests: tests the interaction between units
