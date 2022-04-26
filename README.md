@@ -12,6 +12,7 @@ Udemy Course: Testing React with Jest and Testing Library
                         - jest assertions: determines whether test passes or fails. Assertions starts with global expect(subject of assertion) method & then a matcher example; toBeInTheDocument() 
 * Test-driven development =>=> should write test first then create every element in application 
 * screen object comes from testing library
+* installed this:    npm install eslint-plugin-testing-library eslint-plugin-jest-dom
 
 <<--------------------->>
 
